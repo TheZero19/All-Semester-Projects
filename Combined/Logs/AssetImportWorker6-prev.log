@@ -1,0 +1,307 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.8f1 (b30333d56e81) revision 11731763'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit ProfessionalEducation' Language: 'en' Physical Memory: 16281 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Users/sampu/Desktop/Unity Projects/Combined
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+65465
+Successfully changed project path to: C:/Users/sampu/Desktop/Unity Projects/Combined
+C:/Users/sampu/Desktop/Unity Projects/Combined
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 279.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.8f1 (b30333d56e81)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/sampu/Desktop/Unity Projects/Combined/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon (TM) 530 (ID=0x6900)
+    Vendor:   ATI
+    VRAM:     4086 MB
+    Driver:   27.20.20913.2000
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56412
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.019593 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 160.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.289 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1290ms)
+		BeginReloadAssembly (246ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (737ms)
+			LoadAssemblies (238ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (191ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (430ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (160ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (184ms)
+				ProcessInitializeOnLoadMethodAttributes (71ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008465 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\sampu\Desktop\Unity Projects\Combined\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\sampu\Desktop\Unity Projects\Combined\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 125.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.830 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1831ms)
+		BeginReloadAssembly (155ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (1520ms)
+			LoadAssemblies (118ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (449ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (811ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (126ms)
+				BeforeProcessingInitializeOnLoad (133ms)
+				ProcessInitializeOnLoadAttributes (480ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3896 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (182.5 KB). Loaded Objects now: 4382.
+Memory consumption went from 169.0 MB to 168.8 MB.
+Total: 7.928000 ms (FindLiveObjects: 0.442500 ms CreateObjectMapping: 0.391700 ms MarkObjects: 6.925700 ms  DeleteObjects: 0.166400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1185377.385811 seconds.
+  path: Assets/Imported Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/DungeonGateDEP_ST_Albedo.png
+  artifactKey: Guid(3d42137c9ba9bd44888ba3c8458778b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/DungeonGateDEP_ST_Albedo.png using Guid(3d42137c9ba9bd44888ba3c8458778b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5615f0c654c9972aa5755cf2e3e930b9') in 0.186384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Imported Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/StoneTileBDEP_STMetalnessAoGloss.tif
+  artifactKey: Guid(354d7bd2cc1424d4386c884d396d9645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/StoneTileBDEP_STMetalnessAoGloss.tif using Guid(354d7bd2cc1424d4386c884d396d9645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b2807ceb626840fdfe4703fffdf3944') in 0.062144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Imported Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/DungeonStructureHeadDEP_ST_Normal.png
+  artifactKey: Guid(b6a3a7ffe8041104d8d6213bf9558189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/DungeonStructureHeadDEP_ST_Normal.png using Guid(b6a3a7ffe8041104d8d6213bf9558189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0fa6c1ebde27a272ea326b7cf32497f') in 0.135883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Imported Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/StoneTileADEP_ST_MetalnessAoGloss.tif
+  artifactKey: Guid(64d0437b34a2a4548a0dcbf870269980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/StoneTileADEP_ST_MetalnessAoGloss.tif using Guid(64d0437b34a2a4548a0dcbf870269980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65c808fc82a796a33c10e1a95a59b6da') in 0.045863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Imported Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/SuportBeamDEP_ST_Albedo.png
+  artifactKey: Guid(5c708f9598e7ee94485f27d4c6abac78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/SuportBeamDEP_ST_Albedo.png using Guid(5c708f9598e7ee94485f27d4c6abac78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '492a14aad740aab7ecf069a34f9400d1') in 0.044502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Imported Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/StoneTileADEP_ST_Normal.png
+  artifactKey: Guid(cfa155e02f0342d4f9fc657eced272e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/StoneTileADEP_ST_Normal.png using Guid(cfa155e02f0342d4f9fc657eced272e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6539fbad23965e06f5f6cd61c951c0bb') in 0.056513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Imported Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/DungeonStructureHeadDEP_ST_MetalnessAoGloss.tif
+  artifactKey: Guid(e4041a838a25fde4c8d3d9fdfc559b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/DungeonStructureHeadDEP_ST_MetalnessAoGloss.tif using Guid(e4041a838a25fde4c8d3d9fdfc559b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b2e01a6cfe5d6ef32231c9f8a0c2995') in 0.083158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Imported Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/SuportBeamDEP_ST_MetalnessAoGloss.tif
+  artifactKey: Guid(d50a6a729cd33d34cb53a14b196daf90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/SuportBeamDEP_ST_MetalnessAoGloss.tif using Guid(d50a6a729cd33d34cb53a14b196daf90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcf81d3db7592c3f8b561794d64e1501') in 0.046592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Imported Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/DungeonGateDEP_ST_Normal.png
+  artifactKey: Guid(cf5276247c8035348a2248e66c6cb6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/DungeonGateDEP_ST_Normal.png using Guid(cf5276247c8035348a2248e66c6cb6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33505fbe4cde312bac3dbb51836c5de5') in 0.052433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Imported Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/StoneTileC1DEP_ST_Normal1.png
+  artifactKey: Guid(fa631b0cbe2bbfa4c8b0fcfc618f4931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/StoneTileC1DEP_ST_Normal1.png using Guid(fa631b0cbe2bbfa4c8b0fcfc618f4931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03af7c170ee7236c7c7cda2afd8fceab') in 0.112978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Imported Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/SandStoneDEEP_MetalnessAoGloss.tif
+  artifactKey: Guid(42778a73970795444a19456f20ee159f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/SandStoneDEEP_MetalnessAoGloss.tif using Guid(42778a73970795444a19456f20ee159f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa5845126ebc54bc91b9bd8668744675') in 0.048150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Imported Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/SandStoneDEEP_Albedo B.png
+  artifactKey: Guid(80360f6ce90eda347bb5169c2c69fbfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/SandStoneDEEP_Albedo B.png using Guid(80360f6ce90eda347bb5169c2c69fbfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acad47ce3e6424336b8da021c661fb6d') in 0.058328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Imported Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/StoneArchDEP_ST_MetalnessAoGloss.tif
+  artifactKey: Guid(46626c8fddecc8644a70f5f36158dcf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/StoneArchDEP_ST_MetalnessAoGloss.tif using Guid(46626c8fddecc8644a70f5f36158dcf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f06b824d315152742cffa5d8796a3390') in 0.130014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Imported Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/WallPropsDEP_ST_MetalnessAoGloss.tif
+  artifactKey: Guid(9526e5f374a153c488f1b7a8b388d6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/WallPropsDEP_ST_MetalnessAoGloss.tif using Guid(9526e5f374a153c488f1b7a8b388d6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bffd7c28cbd188c9347cdcc4d68dbbf1') in 0.085379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.658357 seconds.
+  path: Assets/Imported Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Models/Dwarven Dungeon Entrance_Scene.fbx
+  artifactKey: Guid(eb9e95a556e5c564b8353689b7a14f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Models/Dwarven Dungeon Entrance_Scene.fbx using Guid(eb9e95a556e5c564b8353689b7a14f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b11e1cfbdc5938b993b585ce9f33f94') in 0.485267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Imported Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Models/WallBlockA03ADEP.fbx
+  artifactKey: Guid(ee5aa53c88226674dad3e7a4a6524831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Models/WallBlockA03ADEP.fbx using Guid(ee5aa53c88226674dad3e7a4a6524831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25bddba5d6892dad96aee3eff781a5d4') in 0.049396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Imported Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Models/WallPropsWindowB1_ST.fbx
+  artifactKey: Guid(65a9a7838b1ea904f820f5565727a586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Models/WallPropsWindowB1_ST.fbx using Guid(65a9a7838b1ea904f820f5565727a586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02dbc02f197c91865d68720355f0cf2c') in 0.054899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.111554 seconds.
+  path: Assets/Imported Assets/Hut/Prefabs/Fence_Column.prefab
+  artifactKey: Guid(1d159f9883283e04f811c9ed05af4f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Hut/Prefabs/Fence_Column.prefab using Guid(1d159f9883283e04f811c9ed05af4f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbbe1613eb863ad938798a58bc253010') in 0.050953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.830262 seconds.
+  path: Assets/Imported Assets/Hut/Meshes/Fence_Column.fbx
+  artifactKey: Guid(af2f634396e425b46a20716ffa9d5835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Hut/Meshes/Fence_Column.fbx using Guid(af2f634396e425b46a20716ffa9d5835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea604e09ed802074d26e95650c3c2de0') in 0.025059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.581886 seconds.
+  path: Assets/Imported Assets/Hut/Materials/M_Small_Chair.mat
+  artifactKey: Guid(215cabb9b48f76442aeea11ca8606167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Hut/Materials/M_Small_Chair.mat using Guid(215cabb9b48f76442aeea11ca8606167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb2ae7be6f2eeceab17d6195e66a6514') in 0.080550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.734552 seconds.
+  path: Assets/Imported Assets/Hut/Textures/Fence_AO.tga
+  artifactKey: Guid(1c2dfef2eeba81e4e891e0fb47c899e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Hut/Textures/Fence_AO.tga using Guid(1c2dfef2eeba81e4e891e0fb47c899e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '198c47b217257bce3a4f08e3224e6f78') in 0.048329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Imported Assets/Hut/Textures/Small_Chair_Alb.tga
+  artifactKey: Guid(9a39f74db76174f47a9383b826eaf455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Hut/Textures/Small_Chair_Alb.tga using Guid(9a39f74db76174f47a9383b826eaf455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b575b329b8ce915e5c42770b203a388') in 0.051048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Imported Assets/Hut/Textures/Toilet_AO.tga
+  artifactKey: Guid(8e1de68721bf80d4894d60cc71345fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Hut/Textures/Toilet_AO.tga using Guid(8e1de68721bf80d4894d60cc71345fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5415799cdeb33ce8c4feccbfdda4477a') in 0.044482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Imported Assets/Hut/Textures/Poop_Mtl.tga
+  artifactKey: Guid(d2d3b584b7ab6df4190add8b948a21e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Hut/Textures/Poop_Mtl.tga using Guid(d2d3b584b7ab6df4190add8b948a21e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91beb51ba4084130a053e19eff9efb53') in 0.041310 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

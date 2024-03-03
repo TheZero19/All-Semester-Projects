@@ -1,0 +1,21 @@
+--If you've finally downloaded this project once again, I believe you've developed some courage for Unity Development again.
+
+Here are the things you can work on:
+Dungeon Platformer:
+1. Can work on sound, colliders and checkpoints.
+2. Save progress
+3. Add more collectibles.
+
+Sphere In Arms:
+1. Use characters instead of spheres and capsules. Just don't be lazy to work on animations.
+2. Improve the usage of Photon.
+3. Create the options and settings menu as well, create a system to customize the input settings.
+4. Work on particle system.
+5. Rest of the flaws, you'll discover on your own as you work on this project.
+
+Nalapani:
+1. I don't know where to start. Just because the scale of the project can be so large that anything can be enhanced/added at this point.
+2. Work on more animations.
+3. Work on the story mode.
+4. Can be made co-op but don't know how..
+etc etc etc
